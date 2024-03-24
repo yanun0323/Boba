@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8436E2B2BADC32B002BAEE6 /* BubbleTeaHeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8436E2A2BADC32B002BAEE6 /* BubbleTeaHeroView.swift */; };
+		A8436E302BAF209C002BAEE6 /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8436E2F2BAF209C002BAEE6 /* GifImage.swift */; };
+		A8436E322BAF247A002BAEE6 /* ShootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8436E312BAF247A002BAEE6 /* ShootView.swift */; };
+		A8436E352BAF2EE9002BAEE6 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A8436E342BAF2EE9002BAEE6 /* SDWebImageSwiftUI */; };
+		A8436E3A2BAF30B3002BAEE6 /* BubbleTeaHeroBattle.gif in Resources */ = {isa = PBXBuildFile; fileRef = A8436E382BAF30B3002BAEE6 /* BubbleTeaHeroBattle.gif */; };
+		A8436E3D2BAF3101002BAEE6 /* BattleSea.gif in Resources */ = {isa = PBXBuildFile; fileRef = A8436E3C2BAF3101002BAEE6 /* BattleSea.gif */; };
+		A8436E3F2BAF3144002BAEE6 /* BattleSeaBackground.gif in Resources */ = {isa = PBXBuildFile; fileRef = A8436E3E2BAF3144002BAEE6 /* BattleSeaBackground.gif */; };
 		A8FBFD2B2BAC6E19005070AC /* BobaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBFD2A2BAC6E19005070AC /* BobaApp.swift */; };
 		A8FBFD2D2BAC6E19005070AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBFD2C2BAC6E19005070AC /* HomeView.swift */; };
 		A8FBFD2F2BAC6E1A005070AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FBFD2E2BAC6E1A005070AC /* Assets.xcassets */; };
@@ -15,10 +22,16 @@
 		A8FBFD3B2BAC6ED3005070AC /* BattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBFD3A2BAC6ED3005070AC /* BattleView.swift */; };
 		A8FBFD3D2BAC71AE005070AC /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBFD3C2BAC71AE005070AC /* ViewRouter.swift */; };
 		A8FBFD3F2BAC71E3005070AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBFD3E2BAC71E3005070AC /* ContentView.swift */; };
-		A8FBFD412BAC8D58005070AC /* BubbleTeaHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBFD402BAC8D58005070AC /* BubbleTeaHero.swift */; };
+		A8FBFD412BAC8D58005070AC /* BubbleTeaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FBFD402BAC8D58005070AC /* BubbleTeaCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8436E2A2BADC32B002BAEE6 /* BubbleTeaHeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTeaHeroView.swift; sourceTree = "<group>"; };
+		A8436E2F2BAF209C002BAEE6 /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		A8436E312BAF247A002BAEE6 /* ShootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShootView.swift; sourceTree = "<group>"; };
+		A8436E382BAF30B3002BAEE6 /* BubbleTeaHeroBattle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BubbleTeaHeroBattle.gif; sourceTree = "<group>"; };
+		A8436E3C2BAF3101002BAEE6 /* BattleSea.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BattleSea.gif; sourceTree = "<group>"; };
+		A8436E3E2BAF3144002BAEE6 /* BattleSeaBackground.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BattleSeaBackground.gif; sourceTree = "<group>"; };
 		A8FBFD272BAC6E19005070AC /* Boba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Boba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8FBFD2A2BAC6E19005070AC /* BobaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobaApp.swift; sourceTree = "<group>"; };
 		A8FBFD2C2BAC6E19005070AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -28,7 +41,7 @@
 		A8FBFD3A2BAC6ED3005070AC /* BattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleView.swift; sourceTree = "<group>"; };
 		A8FBFD3C2BAC71AE005070AC /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		A8FBFD3E2BAC71E3005070AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A8FBFD402BAC8D58005070AC /* BubbleTeaHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTeaHero.swift; sourceTree = "<group>"; };
+		A8FBFD402BAC8D58005070AC /* BubbleTeaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleTeaCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,12 +49,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8436E352BAF2EE9002BAEE6 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8436E2E2BAF208F002BAEE6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A8436E2F2BAF209C002BAEE6 /* GifImage.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		A8FBFD1E2BAC6E19005070AC = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +86,11 @@
 				A8FBFD2A2BAC6E19005070AC /* BobaApp.swift */,
 				A8FBFD442BAC8D69005070AC /* UI */,
 				A8FBFD422BAC8D5B005070AC /* Internal */,
+				A8436E2E2BAF208F002BAEE6 /* Util */,
 				A8FBFD2E2BAC6E1A005070AC /* Assets.xcassets */,
+				A8436E3E2BAF3144002BAEE6 /* BattleSeaBackground.gif */,
+				A8436E3C2BAF3101002BAEE6 /* BattleSea.gif */,
+				A8436E382BAF30B3002BAEE6 /* BubbleTeaHeroBattle.gif */,
 				A8FBFD302BAC6E1A005070AC /* Preview Content */,
 			);
 			path = Boba;
@@ -89,7 +115,7 @@
 		A8FBFD432BAC8D5E005070AC /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				A8FBFD402BAC8D58005070AC /* BubbleTeaHero.swift */,
+				A8FBFD402BAC8D58005070AC /* BubbleTeaCard.swift */,
 				A8FBFD3C2BAC71AE005070AC /* ViewRouter.swift */,
 			);
 			path = Entity;
@@ -102,6 +128,8 @@
 				A8FBFD2C2BAC6E19005070AC /* HomeView.swift */,
 				A8FBFD382BAC6EC6005070AC /* ShopView.swift */,
 				A8FBFD3A2BAC6ED3005070AC /* BattleView.swift */,
+				A8436E2A2BADC32B002BAEE6 /* BubbleTeaHeroView.swift */,
+				A8436E312BAF247A002BAEE6 /* ShootView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -122,6 +150,9 @@
 			dependencies = (
 			);
 			name = Boba;
+			packageProductDependencies = (
+				A8436E342BAF2EE9002BAEE6 /* SDWebImageSwiftUI */,
+			);
 			productName = Boba;
 			productReference = A8FBFD272BAC6E19005070AC /* Boba.app */;
 			productType = "com.apple.product-type.application";
@@ -150,6 +181,9 @@
 				Base,
 			);
 			mainGroup = A8FBFD1E2BAC6E19005070AC;
+			packageReferences = (
+				A8436E332BAF2EE9002BAEE6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = A8FBFD282BAC6E19005070AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -165,7 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8FBFD322BAC6E1A005070AC /* Preview Assets.xcassets in Resources */,
+				A8436E3A2BAF30B3002BAEE6 /* BubbleTeaHeroBattle.gif in Resources */,
+				A8436E3D2BAF3101002BAEE6 /* BattleSea.gif in Resources */,
 				A8FBFD2F2BAC6E1A005070AC /* Assets.xcassets in Resources */,
+				A8436E3F2BAF3144002BAEE6 /* BattleSeaBackground.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,9 +214,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8FBFD3D2BAC71AE005070AC /* ViewRouter.swift in Sources */,
-				A8FBFD412BAC8D58005070AC /* BubbleTeaHero.swift in Sources */,
+				A8436E302BAF209C002BAEE6 /* GifImage.swift in Sources */,
+				A8FBFD412BAC8D58005070AC /* BubbleTeaCard.swift in Sources */,
+				A8436E2B2BADC32B002BAEE6 /* BubbleTeaHeroView.swift in Sources */,
 				A8FBFD3F2BAC71E3005070AC /* ContentView.swift in Sources */,
 				A8FBFD392BAC6EC6005070AC /* ShopView.swift in Sources */,
+				A8436E322BAF247A002BAEE6 /* ShootView.swift in Sources */,
 				A8FBFD2D2BAC6E19005070AC /* HomeView.swift in Sources */,
 				A8FBFD3B2BAC6ED3005070AC /* BattleView.swift in Sources */,
 				A8FBFD2B2BAC6E19005070AC /* BobaApp.swift in Sources */,
@@ -388,6 +428,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A8436E332BAF2EE9002BAEE6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A8436E342BAF2EE9002BAEE6 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8436E332BAF2EE9002BAEE6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A8FBFD1F2BAC6E19005070AC /* Project object */;
 }

@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var path = NavigationPath()
-    @State private var router = ViewRouter.ShopView
+    @State private var router = ViewRouter.HomeView
     var body: some View {
         NavigationStack(path: $path) {
             VStack {
@@ -26,23 +26,21 @@ struct ContentView: View {
     
     @MainActor
     @ViewBuilder
-    private func playerName() -> some View {
-        Text("Alan")
-    }
-    
-    @MainActor
-    @ViewBuilder
     private func footer() -> some View {
         HStack {
             Spacer()
             homeButton()
             Spacer()
             battleButton()
+                .offset(x: 15)
+                .shadow(radius: 3)
             Spacer()
             shopButton()
+                .offset(x: 10, y: 5)
+                .shadow(radius: 3)
             Spacer()
         }
-        .padding(.bottom)
+        .padding(.bottom, 5)
         .background {
             VStack {
                 Spacer()
@@ -62,7 +60,7 @@ struct ContentView: View {
             Image("HomeButton")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 50)
+                .frame(width: 80)
         }
     }
     
@@ -88,7 +86,7 @@ struct ContentView: View {
             Image("ShopButton")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 50)
+                .frame(width: 120)
         }
     }
 }
